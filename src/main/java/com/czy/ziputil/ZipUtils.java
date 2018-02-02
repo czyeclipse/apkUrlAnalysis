@@ -25,16 +25,16 @@ public class ZipUtils{
 	
 	
 	public static void main(String[] args)throws Exception{
-//		String apkPath="/Users/chenzhiyong/Downloads/2017_com.tencent.tmgp.sgame_h100_1.32.1.10.apk";
-//		String apkPath="http://res.yeshen.com/appstore/apk/2018/01/06/QQfeiche1515221340592.apk";
+//		String apkPath="";
+//		String apkPath="";
 		
-//		String toFile="/Users/chenzhiyong/Desktop/xiaoxiaoxunlongshi_yueyoufenbao.apk";
+//		String toFile="";
 		
 		
 
 		
 		
-//		String toFile="/Users/chenzhiyong/Desktop/"+header.getFileName();
+//		String toFile=""+header.getFileName();
 //		ZipInputStream is=zipFile.getInputStream(header);
 //		OutputStream output=new FileOutputStream(new File(toFile));
 		
@@ -44,8 +44,8 @@ public class ZipUtils{
 	}
 	public static void funUrl()throws Exception{
 		long l=System.currentTimeMillis();
-//		String apkPath="http://bignoxtest.oss-cn-beijing.aliyuncs.com/gamers/gamerapps/NoxGamer_v2.0.1.apk";
-//		String apkPath="http://10.8.1.212:10093/group1/M00/83/65/CggB01poDbSAMdFzKV9iNY5kUT4205.apk?filename=wangzherongyao.apk";
+//		String apkPath="";
+//		String apkPath="k";
 		String apkPath="http://blcdn.nikkigames.cn/sdk/poster/apk/papegames-1.0.1211-16-dist-release.apk";
 		ZipUrlFile zipUrlFile=new ZipUrlFile(apkPath);
 //		List<?> headerList=zipUrlFile.getFileHeaders();
@@ -84,10 +84,10 @@ public class ZipUtils{
 	}
 	
 	public static void funApkTool()throws Exception{
-		String apkPath="/Users/chenzhiyong/Downloads/NoxGamer_v2.0.1.apk";
-		String toPath="/Users/chenzhiyong/Desktop/tmp/NoxGamer";
-//		String apkPath="/Users/chenzhiyong/Downloads/QQ.apk";
-//		String toPath="/Users/chenzhiyong/Desktop/tmp/QQ";
+		String apkPath="";
+		String toPath="";
+//		String apkPath="";
+//		String toPath="";
 //		File toFile=new File(toPath);
 //		FileUtils.deleteQuietly(toFile);
 //		ApkDecoder decoder=new ApkDecoder();
