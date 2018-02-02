@@ -59,7 +59,7 @@ public class RandomAccessUrlFile extends RandomAccessFile{
 	private RandomAccessFile tempRaf=null;
 	private int readForTest(byte[] b,int off,int len) throws IOException{
 		if(tempRaf==null) {
-			tempRaf=new RandomAccessFile("/Users/chenzhiyong/Downloads/wangzherongyao.apk","r");
+			tempRaf=new RandomAccessFile("","r");
 		}
 		tempRaf.seek(this.currentPos);
 		int n=tempRaf.read(b,off,len);
@@ -68,7 +68,7 @@ public class RandomAccessUrlFile extends RandomAccessFile{
 	}
 	private int readForTest(long range,byte[] b,int off,int len) throws IOException{
 		if(tempRaf==null) {
-			tempRaf=new RandomAccessFile("/Users/chenzhiyong/Downloads/wangzherongyao.apk","r");
+			tempRaf=new RandomAccessFile("","r");
 		}
 		tempRaf.seek(range);
 		int n=tempRaf.read(b,off,len);
