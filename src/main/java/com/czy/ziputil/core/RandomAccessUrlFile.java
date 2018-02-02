@@ -321,9 +321,8 @@ public class RandomAccessUrlFile extends RandomAccessFile{
 		
 	}
 	public static void main(String[] args)throws Exception{
-//		String apkUrl="http://res.yeshen.com/appstore%2Fapk%2F2018%2F01%2F12%2Fwangzherongyao_1515720175813.apk?filename=wangzherongyao.apk";
-		String apkUrl="http://res.yeshen.com/appstore%2Fapk%2F2017%2F12%2F13%2FQQ_1513135316324.apk?filename=QQ.apk";
-		File file=new File("/Users/chenzhiyong/Desktop/qq.apk");
+		String apkUrl="";
+		File file=new File("");
 		if(file.exists()) {
 			file.delete();
 		}
